@@ -3,7 +3,7 @@
 ```.sh
 cd dev_ws
 cd src
-git clone https://github.com/koki-ogura/action_test2
+git clone https://github.com/koki-ogura/action_test2.git
 cd ..
 colcon build --packages-select action_test2_interfaces
 colcon build --packages-select action_test2
